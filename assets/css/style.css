@@ -4,14 +4,17 @@
 :root {
     --primary-font: "Quicksand", sans-serif;
     --secondary-font: "Cinzel";
-    --primary-color: #0098d4; /* Prussian blue */
-    --secondary-color:#003153; /* Bavarian blue */
+    --primary-color: #003153; /* Prussian blue */
+    --secondary-color:#0098d4; /* Bavarian blue */
     --highlight-color: #ffcc00; /* gold */
     --highlight-color-light: #ffe864; /* light gold */
 }
 
 body {
     font-family: Quicksand;
+    margin-top: 0;
+    margin-left: 0;
+    margin-top: 0;
     
 }
 
@@ -25,7 +28,9 @@ h1 {
 #navbar {
     background-color: var(--primary-color);
     min-width:100%;
-    min-height: 100%;}
+    min-height: 100%;
+}
+    
 
 #header .lead {
     font-family: var(--secondary-font);
@@ -37,7 +42,6 @@ h1 {
     font-weight: bold;
     padding: 10px 10px 10px 10px;
     text-align: center;
-    margin: 0;
     background-color: var(--primary-color)
    
     
@@ -46,7 +50,7 @@ h1 {
     display: inline-block;
     padding: 0 25px 25px 25px;
     font-size: 16px
-    margin-bottom: 10%
+    margin-bottom: 20px;
 }
 
 .navbar-nav  li a {
@@ -78,8 +82,8 @@ h1 {
 .navbar * {
     text-decoration: none;
     text-align: center;
-    align-items: center;
-    margin-top: 0%;
+    align-items: baseline;
+    margin-top: 0;
     color: var(--secondary-color)
 }
 
@@ -88,8 +92,20 @@ h1 {
     } 
 
 .navbar-brand {
-    margin-top: 40%;
+    margin-top: 200%;
     font-size: 180%;
-    margin-bottom: 0;
+    margin-bottom: 50;
     text-decoration: none;
+}
+
+#logo {
+    height: 600px;
+    width: 100%;
+    background: url("../images/shorehotel.PNG") no-repeat center center/cover;
+    position: relative;
+    margin-top: 0;
+}
+
+.section {
+    margin-top: 0;
 }
