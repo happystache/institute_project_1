@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Quicksand:wght@300..700&display=swap');
+
+/* CSS Variables */
+:root {
+    --primary-font: "Quicksand", sans-serif;
+    --secondary-font: "Cinzel";
+    --primary-color: #0098d4; /* Prussian blue */
+    --secondary-color:#003153; /* Bavarian blue */
+    --highlight-color: #ffcc00; /* gold */
+    --highlight-color-light: #ffe864; /* light gold */
+}
+
+body {
+    font-family: Quicksand;
+    
+}
+
+h1 {
+    font-family: "Cinzel", bold;
+    
+}
+
+/* Navbar */
+
+#navbar {
+    background-color: var(--primary-color);
+    min-width:100%;
+    min-height: 100%;}
+
+#header .lead {
+    font-family: var(--secondary-font);
+}
+
+.navbar-nav {
+    font-family: Quicksand, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    margin: 0;
+    background-color: var(--primary-color)
+   
+    
+}
+.navbar-nav li {
+    display: inline-block;
+    padding: 0 25px 25px 25px;
+    font-size: 16px
+    margin-bottom: 10%
+}
+
+.navbar-nav  li a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    margin: 0;
+    font-family: sans-serif;
+    
+}
+
+.navbar-nav  li a:hover {
+    color: var(--secondary-color);
+    font-weight: bold; 
+    color:white;
+}
+
+.custom-button-filled {
+    border: 3px solid var(--highlight-color);
+    background-color: var(--highlight-color);
+    border-radius: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: .5%;
+    padding-bottom: .5%;
+
+
+}
+
+.navbar * {
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    margin-top: 0%;
+    color: var(--secondary-color)
+}
+
+#navbar ul li {  
+    display: inline; 
+    } 
+
+.navbar-brand {
+    margin-top: 40%;
+    font-size: 180%;
+    margin-bottom: 0;
+    text-decoration: none;
+}
